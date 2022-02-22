@@ -1,0 +1,22 @@
+{
+  "name": "part4-blogs-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "lint": "eslint ."
+  },
+  "author": "ljmf",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "eslint": "^8.9.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "nodemon": "^2.0.15"
+  }
+}
