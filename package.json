@@ -2,11 +2,11 @@
   "name": "part4-blogs-backend",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "lint": "eslint ."
   },
   "author": "ljmf",
@@ -14,9 +14,12 @@
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
-    "eslint": "^8.9.0",
+    "esl": "^10.0.0",
     "express": "^4.17.3",
     "mongoose": "^6.2.3",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0"
   }
 }

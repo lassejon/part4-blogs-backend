@@ -7,3 +7,6 @@ Content-Type: application/json
   "url": "https://www.youtube.com/watch?v=z8RkR4rd7dM",
   "likes": 5
 }
+
+###
+GET http://localhost:3003/api/blogs
